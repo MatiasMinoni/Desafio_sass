@@ -1,0 +1,75 @@
+.parallax {
+    /* The image used */
+    background-image: url("./articulos/parallax.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  }
+
+
+    /* Lista footer */
+
+      footer{
+        display: flex;
+    font-size: larger;
+    justify-content: flex-start;
+    margin-top: 100px;
+    
+    }
+      *{
+      text-decoration: none;
+      list-style: none;
+      margin: 0;
+      }
+
+.row {margin: 0px;
+border: 0px;
+}
+.body_tienda{background-image: url("./Imagenes/breathe.png") ;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.form-check{
+margin: 0px;
+padding-bottom: 1px;
+}
+
+.btn_style{
+border-radius: 4px;
+border: none;
+}
+
+h1{text-align: center;}
+
+.lista_footer{
+    border-radius: 4px;
+   
+    }
+  
+    .lista_footer{
+      box-shadow: none;
+      list-style-type: none;
+      text-decoration:none;
+      list-style-type: none;
+      padding: 1px;
+      font-size: xx-large;
+      margin: 0px; 
+    
+    }
+
+    
+    a img{width:100% ;}
+
+.cards_container{display: grid;
+grid-template-columns: auto auto;
+
+}
+.div1:hover, .div2:hover{opacity: 75%;
+
+}
